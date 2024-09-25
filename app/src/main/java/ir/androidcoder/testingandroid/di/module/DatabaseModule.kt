@@ -1,4 +1,4 @@
-package ir.androidcoder.testingandroid.data.di.module
+package ir.androidcoder.testingandroid.di.module
 
 import android.content.Context
 import androidx.room.Room

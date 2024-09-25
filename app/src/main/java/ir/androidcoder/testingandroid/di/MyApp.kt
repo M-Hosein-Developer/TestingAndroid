@@ -1,4 +1,4 @@
-package ir.androidcoder.testingandroid.data.di
+package ir.androidcoder.testingandroid.di
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
