@@ -133,12 +133,14 @@ dependencies {
     testImplementation ("org.robolectric:robolectric:4.3.1")
     testImplementation ("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
     testImplementation ("com.google.truth:truth:1.1.3")
-    testImplementation ("org.mockito:mockito-core:2.21.0")
+//    testImplementation ("org.mockito:mockito-core:5.2.1")
 
     // Instrumented Unit Tests
-    androidTestImplementation ("com.linkedin.dexmaker:dexmaker-mockito:2.12.1")
+//    androidTestImplementation ("com.linkedin.dexmaker:dexmaker-mockito:5.2.1")
     androidTestImplementation ("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
     androidTestImplementation ("androidx.arch.core:core-testing:2.2.0")
     androidTestImplementation ("com.google.truth:truth:1.1.3")
-    androidTestImplementation ("org.mockito:mockito-core:2.21.0")
+//    androidTestImplementation ("org.mockito:mockito-core:5.2.1")
+//    testImplementation("org.mockito.kotlin:mockito-kotlin:5.2.1")
+
 }
