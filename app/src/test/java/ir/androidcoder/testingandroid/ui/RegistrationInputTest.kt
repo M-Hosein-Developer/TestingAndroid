@@ -1,6 +1,7 @@
 package ir.androidcoder.testingandroid.ui
 
 import com.google.common.truth.Truth.assertThat
+import ir.androidcoder.testingandroid.util.RegistrationInput
 import org.junit.Test
 
 

@@ -1,4 +1,4 @@
-package ir.androidcoder.testingandroid.ui
+package ir.androidcoder.testingandroid.util
 
 class RegistrationInput {
 

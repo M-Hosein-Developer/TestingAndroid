@@ -1,4 +1,4 @@
-package ir.androidcoder.testingandroid
+package ir.androidcoder.testingandroid.util
 
 import android.content.Context
 

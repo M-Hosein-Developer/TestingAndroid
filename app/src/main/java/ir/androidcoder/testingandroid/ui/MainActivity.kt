@@ -1,4 +1,4 @@
-package ir.androidcoder.testingandroid
+package ir.androidcoder.testingandroid.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
