@@ -22,7 +22,7 @@ object DatabaseModule {
             context,
             ShoppingItemDb::class.java,
             DATABASE_NAME
-        )
+        ).build()
 
     @Provides
     @Singleton

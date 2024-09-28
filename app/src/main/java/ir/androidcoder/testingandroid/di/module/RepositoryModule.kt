@@ -1,5 +1,6 @@
 package ir.androidcoder.testingandroid.di.module
 
+import dagger.Binds
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -12,11 +13,10 @@ import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
-object RepositoryModule {
+abstract class RepositoryModule {
 
-    @Provides
-    @Singleton
-    fun provideShoppingRepository(dao: ShoppingDao, api: PixabayApi) = DefaultShoppingRepository(dao, api) as ShoppingRepository
+    @Binds
+    abstract fun provideShoppingRepository(shoppingRepository : DefaultShoppingRepository) : ShoppingRepository
 
 
 }
