@@ -18,7 +18,7 @@ android {
         versionCode = 1
         versionName = "1.0"
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner = "ir.androidcoder.testingandroid.di.HiltTestRunner"
         vectorDrawables {
             useSupportLibrary = true
         }
@@ -141,5 +141,7 @@ dependencies {
     androidTestImplementation ("com.google.truth:truth:1.1.3")
 //    androidTestImplementation ("org.mockito:mockito-core:5.2.1")
 //    testImplementation("org.mockito.kotlin:mockito-kotlin:5.2.1")
+    androidTestImplementation("com.google.dagger:hilt-android-testing:2.50")
+    kaptAndroidTest("com.google.dagger:hilt-android-compiler:2.50")
 
 }
