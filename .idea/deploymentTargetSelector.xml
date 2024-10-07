@@ -13,17 +13,6 @@
         </DropdownSelection>
         <DialogSelection />
       </SelectionState>
-      <SelectionState runConfigName="insertShoppingItem()">
-        <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2024-09-25T07:51:34.288959600Z">
-          <Target type="DEFAULT_BOOT">
-            <handle>
-              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\ASUS\.android\avd\Pixel_6_API_VanillaIceCream_2.avd" />
-            </handle>
-          </Target>
-        </DropdownSelection>
-        <DialogSelection />
-      </SelectionState>
       <SelectionState runConfigName="ShoppingDaoTest">
         <option name="selectionMode" value="DROPDOWN" />
         <DropdownSelection timestamp="2024-09-28T18:28:13.902651500Z">
@@ -35,10 +24,16 @@
         </DropdownSelection>
         <DialogSelection />
       </SelectionState>
-      <SelectionState runConfigName="observeTotalPriceSum()">
+      <SelectionState runConfigName="testLaunchFragmentInHiltContainer()">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="testLaunchFragmentInHiltContainer()">
+      <SelectionState runConfigName="clickedAddShoppingItemButton_navigateToAddShoppingItemFragment()">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="ShoppingFragmentTest">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="pressBachButton_popBackStack()">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>
