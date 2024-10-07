@@ -11,6 +11,10 @@ android {
     namespace = "ir.androidcoder.testingandroid"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "ir.androidcoder.testingandroid"
         minSdk = 24
@@ -106,7 +110,7 @@ dependencies {
     implementation( "androidx.lifecycle:lifecycle-runtime-ktx:2.8.6")
 
     // Navigation Components
-    implementation ("androidx.navigation:navigation-compose:2.7.7")
+    implementation ("androidx.navigation:navigation-fragment-ktx:2.8.2")
 
     //Coil
     implementation("io.coil-kt:coil-compose:2.5.0")
@@ -135,7 +139,6 @@ dependencies {
 //    testImplementation ("org.mockito:mockito-core:5.2.1")
 
     // Instrumented Unit Tests
-//    androidTestImplementation ("com.linkedin.dexmaker:dexmaker-mockito:5.2.1")
     androidTestImplementation ("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
     androidTestImplementation ("androidx.arch.core:core-testing:2.2.0")
     androidTestImplementation ("com.google.truth:truth:1.1.3")
@@ -144,5 +147,12 @@ dependencies {
     androidTestImplementation("com.google.dagger:hilt-android-testing:2.50")
     kaptAndroidTest("com.google.dagger:hilt-android-compiler:2.50")
     debugImplementation("androidx.fragment:fragment-testing:1.6.1")
+
+    testImplementation ("org.mockito:mockito-core:5.5.0")
+    androidTestImplementation ("org.mockito:mockito-android:5.5.0")
+//    androidTestImplementation ("com.linkedin.dexmaker:dexmaker-mockito-inline:2.28.0")
+
+
+
 
 }
